@@ -23,7 +23,13 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>
           Hello, I'm <b>Mike</b>. I'm a software engineer and a game developer.
-          You can contact me on Twitter
+          You can contact me on{" "}
+          <Link
+            href="https://www.linkedin.com/in/michael-r-harrison/"
+            target="_blank"
+          >
+            LinkedIn
+          </Link>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
